@@ -13,7 +13,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <Link to="/" className="text-2xl font-bold text-white hover:text-blue-300 transition-colors">
-              Sai Surya Kanakamedala
+              Pavan Puthra Reddy Thangella
             </Link>
             <div className="flex space-x-6">
               <Link 
@@ -47,7 +47,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 Hobbies
               </Link>
               <a 
-                href="https://www.linkedin.com/in/sai-surya-k/" 
+                href="https://www.linkedin.com/in/pavanputhrareddy/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white hover:text-blue-300 transition-colors"
@@ -63,7 +63,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       
       <footer className="bg-black/30 backdrop-blur-sm border-t border-white/10 mt-20">
         <div className="max-w-6xl mx-auto px-6 py-8 text-center text-white/70">
-          <p>&copy; 2024 Sai Surya Kanakamedala. All rights reserved.</p>
+          <p>&copy; 2025 Pavan Puthra Reddy Thangella. All rights reserved.</p>
         </div>
       </footer>
     </div>
