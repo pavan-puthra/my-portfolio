@@ -8,7 +8,6 @@ import Index from "./pages/Index";
 import Projects from "./pages/Projects";
 import WorkExperience from "./pages/WorkExperience";
 import Hobbies from "./pages/Hobbies";
-import Dialectics from "./pages/Dialectics";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
