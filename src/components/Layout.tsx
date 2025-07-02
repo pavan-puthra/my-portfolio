@@ -35,12 +35,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 Projects
               </Link>
               <Link 
-                to="/dialectics" 
-                className={`text-white hover:text-blue-300 transition-colors ${isActive('/dialectics') ? 'text-blue-300' : ''}`}
-              >
-                Dialectics
-              </Link>
-              <Link 
                 to="/hobbies" 
                 className={`text-white hover:text-blue-300 transition-colors ${isActive('/hobbies') ? 'text-blue-300' : ''}`}
               >

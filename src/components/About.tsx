@@ -36,8 +36,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-6">About Me</h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
-            A unique blend of technical expertise and business acumen, I've successfully transitioned from 
-            software development to strategic leadership, always focusing on innovation and impact.
+          Man & Machine enthusiast trying to create and solve science problems with a graduate degree in Mechanical Engineering from Arizona State University. 
           </p>
         </div>
         

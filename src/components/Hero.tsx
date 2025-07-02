@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="text-center md:text-left order-2 md:order-1">
             <div className="mb-8 animate-fade-in">
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-                Bridging <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Technology</span> & <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Business</span>
+                Building <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Technology</span> from <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Science</span>
               </h1>
               <p className="text-lg md:text-xl text-white/80 mb-8 leading-relaxed"> 
               Mechanical Engineer designed to build systems where efficiency meets innovation with experience built in food, science and Technology.
