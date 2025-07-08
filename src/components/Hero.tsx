@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-full blur-lg opacity-30 animate-pulse"></div>
               <img 
-                src="/lovable-uploads/TW.jpg" 
+                src="/Images/TW.jpg" 
                 alt="Pavan Puthra Reddy Thangella"
                 className="relative w-96 h-96 object-cover rounded-full border-4 border-white/20 shadow-2xl"
               />
@@ -39,7 +39,7 @@ const Hero = () => {
                 </Button>
               </Link>
               
-              <a href="mailto:pthangel@asu.edu">
+              <a href="mailto:pavanputhra@asu.edu">
                 <Button variant="outline" size="lg" className="border-white/30 text-white hover:bg-white/10 px-8 py-3 text-lg">
                   Get In Touch
                 </Button>

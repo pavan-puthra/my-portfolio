@@ -4,20 +4,20 @@ import { Badge } from "@/components/ui/badge";
 const Skills = () => {
   const skillCategories = [
     {
-      category: "Programming & Development",
-      skills: ["Java", "JavaScript", "Angular", "Spring Boot", "Python", "SQL", "HTML/CSS", "React"]
+      category: "Design & FEA",
+      skills: ["AutoCAD", "Ansys", "CATIA", "COMSOL", "Fusion 360", "GD&T", "Revit", "SolidWorks","Siemens NX"]
     },
     {
-      category: "Enterprise & Analytics",
-      skills: ["SAP ERP", "SAP Ariba", "Tableau", "Excel", "Power BI", "Machine Learning", "AWS Cloud"]
+      category: "Operations & Strategies",
+      skills: ["Lean Six Sigma", "DFMEA", "DMAIC", "Lean 5S", "Additive Manufacturing", "Workflow Optimization", "Manufacturing Operations"]
     },
     {
-      category: "Business & Strategy",
-      skills: ["Supply Chain Management", "Business Analytics", "Project Management", "Strategic Planning", "Operations"]
+      category: "Programming & Analytics",
+      skills: ["Python", "SQL", "PLC Programming", "JMP pro", "Minitab", "Tableau", "Excel", "Power BI", "Machine Learning", "Google CLoud", "Github"]
     },
     {
       category: "Leadership & Management",
-      skills: ["Team Leadership", "Program Management", "Stakeholder Management", "Digital Marketing", "Content Strategy"]
+      skills: ["Team Leadership", "Product Management", "Inventory Management", "Warehouse Management",]
     }
   ];
 
@@ -26,7 +26,7 @@ const Skills = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-6">Technical Skills & Expertise</h2>
-          <p className="text-xl text-white/80">A comprehensive skill set spanning technology, business, and leadership</p>
+          <p className="text-xl text-white/80">A comprehensive skill set spanning Design, Technology and Leadership in Manufacturing and Operations. <T></T></p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-8">
