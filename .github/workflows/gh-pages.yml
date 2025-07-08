@@ -30,7 +30,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          deploy_key: ${{ secrets.GH_TOKEN }}
+          deploy_key: ${{ secrets.DEPLOY_KEY }}
           external_repository: pavan-puthra/pavan-puthra.github.io
           publish_branch: main
           publish_dir: ./dist
