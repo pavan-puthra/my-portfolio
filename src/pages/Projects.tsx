@@ -8,39 +8,55 @@ import { ExternalLink, Calendar, Users, TrendingUp, BookOpen, Code, GraduationCa
 const Projects = () => {
   const projects = [
     {
-      title: "GE Aerospace Supply Chain Simulation",
-      period: "Current - Academic Project",
-      role: "Graduate Student Researcher",
-      description: "Developing AI-powered turbine optimization model for GE Aerospace's supply chain operations.",
+      title: "Accenture - North America Data Analytics",
+      period: "Consulting Project",
+      role: "Data Analytics Consultant",
+      description: "Strategic data analytics consulting project for North American market analysis.",
       achievements: [
-        "Working on real-time supply chain optimization using AI/ML",
-        "Reducing production defects using GE Digital Thread",
-        "Engineering data simulation and optimization",
-        "Generative AI model for optimizing turbine blade disposition processes",
-        "Focus on improving manufacturing efficiency"
+        "Conducted comprehensive market analysis for North American operations",
+        "Developed data-driven recommendations for business strategy",
+        "Created analytical frameworks for decision making",
+        "Performed competitive analysis and market research",
+        "Delivered insights to support strategic planning"
       ],
-      technologies: ["Machine Learning", "AI/ML", "Supply Chain Analytics", "GE Digital Thread", "Data Science"],
-      metrics: { focus: "Real-time", impact: "Production Optimization" },
+      technologies: ["Business Analytics", "Market Research", "Strategic Planning", "Consulting", "Data Strategy"],
+      metrics: { focus: "Sustainability", impact: "Environment and Material science" },
+      icon: Code
+    },
+    {
+      title: "Portable Universal Testing Machine",
+      period: "Academic Project",
+      role: "Graduate Student Researcher",
+      description: "Developing a portable universal testing machine using Lead-Screw mechanism and Arduino using Feedback Control.",
+      achievements: [
+        "Designed, modeled, and prototyped a precision universal testing machine using SolidWorks intuitive Arduino-based HMI",
+        "Fabricated critical components through 3D printing, incorporating lead screw mechanism using displacement sensors and custom grippers",
+        "improving measurement accuracy & reducing variability by 20%, ensuring reliability for testing of tensile strength, fatigue and yield strength. ",
+        "Reduced execution time by 30%,significantly enhancing test consistency and streamlining user interaction through the IDE.",
+        "Validated the equipment to ASTM standards through rigorous calibration and iterative optimization"
+      ],
+      technologies: ["Arduino Programming", "Feedback Control", "3-D Printing", "Solidworks", "C/C++"],
+      metrics: { focus: "Real-time", impact: "Product Development" },
       icon: Building
     },
     {
-      title: "Mayo Clinic Scottsdale: Optimizing Emergency Room Operations",
-      period: "Current - Academic Project",
+      title: "Weld Bead Monitoring via Image Recognition",
+      period: "Academic Project",
       role: "Graduate Student Researcher",
-      description: "Data-driven optimization of emergency room operations to enhance patient throughput and care quality.",
+      description: "Data-driven machine learning project for weld bead inspection using computer vision.",
       achievements: [
-        "Working on real-time supply chain project at Mayo Clinic",
-        "Data-driven triage strategies for enhanced patient throughput",
-        "Optimizing emergency room workflow processes",
-        "Analyzing patient flow and resource allocation",
-        "Implementing predictive analytics for better capacity planning"
+        "Designed and deployed a CNN and Vision Transformer-based image recognition system to automate weld bead inspection",
+        "Achievied 96% accuracy in defect detection and reducing manual inspection time by 40%",
+        "Integrated the AI model with robotic welding systems to enable real-time feedback minimizing rework by 50% ",
+        "Leveraged vision transformer architectures to analyze weld bead thermal patterns and spatial inconsistencies",
+        "Reducied material waste by 20% and enabled predictive maintenance of welding equipment, cutting downtime by 30%"
       ],
-      technologies: ["Data Analytics", "Healthcare Operations", "Predictive Modeling", "Process Optimization"],
-      metrics: { focus: "Patient Throughput", impact: "Healthcare Efficiency" },
+      technologies: ["AI/ML", "Computer Vision", "Manufacturing Operations", "Robotics", "Welding", "TIG/MIG/GMAW/GTAW Welding"],
+      metrics: { focus: "Quality Assurance", impact: "Manufacturing Efficiency" },
       icon: Users
     },
     {
-      title: "Quantium Data Analytics",
+      title: "FEA of Laser Powder Bed Fusion process for Additive Manufacturing ",
       period: "Academic Project",
       role: "Data Analyst",
       description: "Comprehensive data analytics project focusing on retail and customer behavior analysis.",
@@ -55,22 +71,6 @@ const Projects = () => {
       metrics: { scope: "Retail Analytics", impact: "Business Insights" },
       icon: TrendingUp
     },
-    {
-      title: "Accenture - North America Data Analytics",
-      period: "Consulting Project",
-      role: "Data Analytics Consultant",
-      description: "Strategic data analytics consulting project for North American market analysis.",
-      achievements: [
-        "Conducted comprehensive market analysis for North American operations",
-        "Developed data-driven recommendations for business strategy",
-        "Created analytical frameworks for decision making",
-        "Performed competitive analysis and market research",
-        "Delivered insights to support strategic planning"
-      ],
-      technologies: ["Business Analytics", "Market Research", "Strategic Planning", "Consulting", "Data Strategy"],
-      metrics: { scope: "North America", impact: "Strategic Insights" },
-      icon: Code
-    }
   ];
 
   return (
@@ -80,8 +80,8 @@ const Projects = () => {
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold text-white mb-6">My Projects</h1>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              A showcase of impactful projects spanning technology, healthcare analytics, and business strategy. 
-              Each project demonstrates my ability to drive meaningful results across diverse domains.
+              A showcase of impactful projects spanning solutions to problems in Real Time Science and Technology. 
+              Each project demonstrates my ability to drive meaningful results across my domains building my expertise.
             </p>
           </div>
 

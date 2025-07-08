@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { BookOpen, Plane, Trophy, MapPin, Heart, Camera } from "lucide-react";
 
-const Hobbies = () => {
+const Blog = () => {
   const hobbyImages = [
     "/lovable-uploads/34a6e640-05f2-4806-bd1f-7362e406c169.png",
     "/lovable-uploads/e852d9ec-9489-4b8d-aa46-c8786a8bbb10.png",
@@ -16,7 +16,7 @@ const Hobbies = () => {
       <div className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-5xl font-bold text-white mb-6">My Hobbies & Interests</h1>
+            <h1 className="text-5xl font-bold text-white mb-6">My Blog & Interests</h1>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
               Beyond work and academics, I'm passionate about learning, exploring, and staying active. 
               Here's what keeps me energized and inspired in my free time!
@@ -136,4 +136,4 @@ const Hobbies = () => {
   );
 };
 
-export default Hobbies;
+export default Blog;

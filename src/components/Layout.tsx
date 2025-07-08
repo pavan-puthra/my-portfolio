@@ -35,10 +35,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 Projects
               </Link>
               <Link 
-                to="/hobbies" 
-                className={`text-white hover:text-blue-300 transition-colors ${isActive('/hobbies') ? 'text-blue-300' : ''}`}
+                to="/Blog" 
+                className={`text-white hover:text-blue-300 transition-colors ${isActive('/Blog') ? 'text-blue-300' : ''}`}
               >
-                Hobbies
+                Blog
               </Link>
               <a 
                 href="https://www.linkedin.com/in/pavanputhrareddy/" 
