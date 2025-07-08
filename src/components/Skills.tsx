@@ -26,7 +26,7 @@ const Skills = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-6">Technical Skills & Expertise</h2>
-          <p className="text-xl text-white/80">A comprehensive skill set spanning Design, Technology and Leadership in Manufacturing and Operations. <T></T></p>
+          <p className="text-xl text-white/80">A comprehensive skill set spanning Design, Technology and Leadership <T></T></p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-8">
