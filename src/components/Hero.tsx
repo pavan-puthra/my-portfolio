@@ -27,7 +27,7 @@ const Hero = () => {
                 Building <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Technology</span> from <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Science</span>
               </h1>
               <p className="text-lg md:text-xl text-white/80 mb-8 leading-relaxed"> 
-              Mechanical Engineer designed to build systems where efficiency meets innovation with experience built in food, science and Technology.
+              Mechanical Engineer designed to build systems where efficiency meets innovation with experience built in Food, Science and Technology.
               </p>
             </div>
             
@@ -40,7 +40,7 @@ const Hero = () => {
               </Link>
               
               <a href="mailto:pavanputhra@asu.edu">
-                <Button variant="outline" size="lg" className="border-white/30 text-white hover:bg-white/10 px-8 py-3 text-lg">
+                <Button variant="outline" size="lg" className="border-black/30 text-white hover:bg-black/10 px-8 py-3 text-lg">
                   Get In Touch
                 </Button>
               </a>

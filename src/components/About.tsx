@@ -12,9 +12,9 @@ const About = () => {
     },
     {
       icon: BookOpen,
-      title: "Educational Impact",
-      description: "Founded Dialectics, scaling educational content to 5,800+ public schools and selling 200,000+ books.",
-      highlight: "Edtech entrepreneur"
+      title: "Education",
+      description: "Graduated from Arizona State University with a degree in Mechanical Engineering concentrating on Manufacturing and Automation.",
+      highlight: ""
     },
     {
       icon: GraduationCap,

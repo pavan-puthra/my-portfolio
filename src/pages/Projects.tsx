@@ -9,8 +9,8 @@ const Projects = () => {
   const projects = [
     {
       title: "Accenture - North America Data Analytics",
-      period: "Consulting Project",
-      role: "Data Analytics Consultant",
+      period: "MORE Scholarship Recipient",
+      role: "Graduate Student Researcher",
       description: "Strategic data analytics consulting project for North American market analysis.",
       achievements: [
         "Conducted comprehensive market analysis for North American operations",

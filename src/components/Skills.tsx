@@ -9,15 +9,15 @@ const Skills = () => {
     },
     {
       category: "Operations & Strategies",
-      skills: ["Lean Six Sigma", "DFMEA", "DMAIC", "Lean 5S", "Additive Manufacturing", "Workflow Optimization", "Manufacturing Operations"]
+      skills: ["Additive Manufacturing", "DFMEA", "DMAIC", "Lean Six Sigma", "Lean 5S","Manufacturing Operations", "Workflow Optimization"]
     },
     {
-      category: "Programming & Analytics",
-      skills: ["Python", "SQL", "PLC Programming", "JMP pro", "Minitab", "Tableau", "Excel", "Power BI", "Machine Learning", "Google CLoud", "Github"]
+      category: "Analytics & Programming",
+      skills: ["Excel", "Github", "Google Cloud", "JMP pro", "Machine Learning", "Minitab", "PLC Programming", "Power BI", "Python", "SQL", "Tableau"]
     },
     {
       category: "Leadership & Management",
-      skills: ["Team Leadership", "Product Management", "Inventory Management", "Warehouse Management",]
+      skills: ["Inventory Management", "Product Management", "Team Leadership", "Warehouse Management"]
     }
   ];
 
