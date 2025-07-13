@@ -13,9 +13,9 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-full blur-lg opacity-30 animate-pulse"></div>
               <img 
-                src="/Images/TW.jpg" 
+                src="/Images/Profile.jpg" 
                 alt="Pavan Puthra Reddy Thangella"
-                className="relative w-96 h-96 object-cover rounded-full border-4 border-white/20 shadow-2xl"
+                className="relative w-96 h-96 object-cover rounded-full border-4 border-white/10 shadow-xl"
               />
             </div>
           </div>
@@ -27,7 +27,7 @@ const Hero = () => {
                 Building <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Technology</span> from <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Science</span>
               </h1>
               <p className="text-lg md:text-xl text-white/80 mb-8 leading-relaxed"> 
-              Mechanical Engineer designed to build systems where efficiency meets innovation with experience built in Food, Science and Technology.
+              Mechanical Engineer designed to build systems where efficiency meets innovation with experience built in Engineering, Science, Food and Technology.
               </p>
             </div>
             

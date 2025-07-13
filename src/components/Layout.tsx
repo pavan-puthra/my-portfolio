@@ -12,7 +12,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <nav className="bg-black/20 backdrop-blur-sm border-b border-white/10 sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <Link to="/" className="text-2xl font-bold text-white hover:text-blue-300 transition-colors">
+            <Link to="/" className="text-2xl font-semibold text-white hover:text-blue-300 transition-colors">
               Pavan Puthra Reddy Thangella
             </Link>
             <div className="flex space-x-6">

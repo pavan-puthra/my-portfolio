@@ -9,7 +9,7 @@ const Skills = () => {
     },
     {
       category: "Operations & Strategies",
-      skills: ["Additive Manufacturing", "DFMEA", "DMAIC", "FEA", "Lean Six Sigma", "Lean 5S", "Manufacturing Operations", "PFMEA", "Workflow Optimization"]
+      skills: ["Additive Manufacturing", "DFMEA", "DMAIC", "FEA", "Lean Six Sigma", "Lean 5S", "Manufacturing Operations", "PFMEA"]
     },
     {
       category: "Analytics & Programming",
