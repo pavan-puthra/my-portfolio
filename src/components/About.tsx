@@ -1,32 +1,32 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { GraduationCap, Code, BookOpen, Users } from "lucide-react";
+import { BookOpen, Users, Cog, Code } from "lucide-react";
 
 const About = () => {
   const experiences = [
     {
-      icon: Code,
-      title: "Technical Excellence",
-      description: "Former full-stack developer at JPMorgan with expertise in Java, SAP, Tableau, and modern web technologies.",
-      highlight: "7+ years in technology"
+      icon: Cog,
+      title: "Technical Experience",
+      description: "Former Manufacturing Engineer Intern from Shape Corp. and Inventory Analyst Intern from Sodexo with expertise in Process Improvement and Inventory management along with robotic process automation.",
+      highlight: ""
     },
     {
       icon: BookOpen,
       title: "Education",
-      description: "Graduated from Arizona State University with a degree in Mechanical Engineering concentrating on Manufacturing and Automation.",
+      description: "A research-oriented Mechanical Engineer from Arizona State University, specializing in Manufacturing and Automation. Proficient in designing and optimizing automations using lean manufacturing principles.",
       highlight: ""
     },
     {
-      icon: GraduationCap,
-      title: "Business Strategy",
-      description: "Currently pursuing MBA in Business Analytics & Supply Chain Management at Arizona State University.",
-      highlight: "AI & Analytics focus"
+      icon: Code,
+      title: "Data Driven ",
+      description: "Proficient in Python and SQL for data analysis, visualization and building Machine Learning models for process improvement and efficiency optimization.",
+      highlight: ""
     },
     {
       icon: Users,
       title: "Program Management",
-      description: "Led teams of 65+ resources, managed operations across multiple regions, and drove significant growth initiatives.",
-      highlight: "Leadership proven"
+      description: "Led teams of 25+ people, managed operations across multiple events, and drove significant growth initivatives in management and operations at Sodexo.",
+      highlight: ""
     }
   ];
 
@@ -34,7 +34,7 @@ const About = () => {
     <section className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-6">About Me</h2>
+          <h2 className="text-4xl font-semibold text-white mb-6">About Me</h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
           Man & Machine enthusiast trying to create and solve science problems with a graduate degree in Mechanical Engineering from Arizona State University. 
           </p>

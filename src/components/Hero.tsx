@@ -34,13 +34,13 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center mb-12">
               <Link to="/projects">
                 <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 text-lg group">
-                  View My Projects
+                  View my projects
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
               
               <a href="mailto:pavanputhra@asu.edu">
-                <Button variant="outline" size="lg" className="border-black/30 text-white hover:bg-black/10 px-8 py-3 text-lg">
+                <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 text-lg">
                   Get In Touch
                 </Button>
               </a>

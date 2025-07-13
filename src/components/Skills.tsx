@@ -5,15 +5,15 @@ const Skills = () => {
   const skillCategories = [
     {
       category: "Design & FEA",
-      skills: ["AutoCAD", "Ansys", "CATIA", "COMSOL", "Fusion 360", "GD&T", "Revit", "SolidWorks","Siemens NX"]
+      skills: ["AutoCAD", "Ansys", "CATIA", "COMSOL", "Fusion 360", "GD&T", "Revit", "SolidWorks", "Siemens NX"]
     },
     {
       category: "Operations & Strategies",
-      skills: ["Additive Manufacturing", "DFMEA", "DMAIC", "Lean Six Sigma", "Lean 5S","Manufacturing Operations", "Workflow Optimization"]
+      skills: ["Additive Manufacturing", "DFMEA", "DMAIC", "FEA", "Lean Six Sigma", "Lean 5S", "Manufacturing Operations", "PFMEA", "Workflow Optimization"]
     },
     {
       category: "Analytics & Programming",
-      skills: ["Excel", "Github", "Google Cloud", "JMP pro", "Machine Learning", "Minitab", "PLC Programming", "Power BI", "Python", "SQL", "Tableau"]
+      skills: ["C/C++`", "Docker", "Excel VBA", "GitHub", "Google Cloud", "JMP pro", "Machine Learning", "Minitab", "PLC Programming", "Power BI", "Python", "SQL", "Tableau"]
     },
     {
       category: "Leadership & Management",
@@ -25,8 +25,8 @@ const Skills = () => {
     <section className="py-20 px-6 bg-black/20">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-6">Technical Skills & Expertise</h2>
-          <p className="text-xl text-white/80">A comprehensive skill set spanning Design, Technology and Leadership</p>
+          <h2 className="text-4xl font-semibold text-white mb-6">Technical Skills & Expertise</h2>
+          <p className="text-xl text-white/80">Driving efficiency and innovation by integrating advanced design, data analytics, and strategic operational leadership</p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-8">
