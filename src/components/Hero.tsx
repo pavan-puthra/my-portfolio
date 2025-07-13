@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-full blur-lg opacity-30 animate-pulse"></div>
               <img 
-                src="/Images/Profile.jpg" 
+                src="/Images/ProfilePicture.jpg" 
                 alt="Pavan Puthra Reddy Thangella"
                 className="relative w-96 h-96 object-cover rounded-full border-4 border-white/10 shadow-xl"
               />
