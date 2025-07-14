@@ -8,10 +8,10 @@ import { ExternalLink, Calendar, Users, TrendingUp, BookOpen, Code, GraduationCa
 const Projects = () => {
   const projects = [
     {
-      title: "Accenture - North America Data Analytics",
+      title: "Salt River Project (SRP) - Carbonization of XLPE into Graphene",
       period: "MORE Scholarship Recipient",
       role: "Graduate Student Researcher",
-      description: "Strategic data analytics consulting project for North American market analysis.",
+      description: "Converting 300 Tons of Landill waste into Valuable Carbon for Energy Storage",
       achievements: [
         "Conducted comprehensive market analysis for North American operations",
         "Developed data-driven recommendations for business strategy",
@@ -47,7 +47,7 @@ const Projects = () => {
       achievements: [
         "Designed and deployed a CNN and Vision Transformer-based image recognition system to automate weld bead inspection",
         "Achievied 96% accuracy in defect detection and reducing manual inspection time by 40%",
-        "Integrated the AI model with robotic welding systems to enable real-time feedback minimizing rework by 50% ",
+        "Integrated the AI model with robotic welding systems to enable real-time feedback minimizing rewelding by 50% ",
         "Leveraged vision transformer architectures to analyze weld bead thermal patterns and spatial inconsistencies",
         "Reducied material waste by 20% and enabled predictive maintenance of welding equipment, cutting downtime by 30%"
       ],
@@ -58,8 +58,8 @@ const Projects = () => {
     {
       title: "FEA of Laser Powder Bed Fusion process for Additive Manufacturing ",
       period: "Academic Project",
-      role: "Data Analyst",
-      description: "Comprehensive data analytics project focusing on retail and customer behavior analysis.",
+      role: "Graduate Student Researcher",
+      description: "Finite Element Analysis of Selective Laser Melting Process impacting various parameters during the build process.",
       achievements: [
         "Analyzed customer purchasing patterns and behavior",
         "Developed insights for retail strategy optimization",
@@ -67,8 +67,8 @@ const Projects = () => {
         "Performed statistical analysis on large datasets",
         "Generated actionable recommendations for business growth"
       ],
-      technologies: ["Python", "Data Analytics", "Statistical Analysis", "Data Visualization", "Retail Analytics"],
-      metrics: { scope: "Retail Analytics", impact: "Business Insights" },
+      technologies: ["ANSYS", "COMSOL", "Structural Analysis", "Solidworks", "FEA", "Additive Manufacturing"],
+      metrics: { scope: "Customization", impact: "Improving Build Parameters" },
       icon: TrendingUp
     },
   ];
@@ -78,7 +78,7 @@ const Projects = () => {
       <div className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-5xl font-bold text-white mb-6">My Projects</h1>
+            <h1 className="text-5xl font-semibold text-white mb-6">My Projects</h1>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
               A showcase of impactful projects spanning solutions to problems in Real Time Science and Technology. 
               Each project demonstrates my ability to drive meaningful results across my domains building my expertise.

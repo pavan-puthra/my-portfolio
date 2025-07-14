@@ -13,7 +13,7 @@ const Skills = () => {
     },
     {
       category: "Analytics & Programming",
-      skills: ["C/C++`", "Docker", "Excel VBA", "GitHub", "Google Cloud", "JMP pro", "Machine Learning", "Minitab", "PLC Programming", "Power BI", "Python", "SQL", "Tableau"]
+      skills: ["C/C++", "Excel VBA", "GitHub", "Google Cloud", "JMP pro", "Machine Learning", "Minitab", "PLC Programming", "PLEX", "Power BI", "Python", "SAP", "SQL", "Tableau"]
     },
     {
       category: "Leadership & Management",
