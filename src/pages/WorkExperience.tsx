@@ -90,8 +90,8 @@ const WorkExperience = () => {
       <div className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-5xl font-semibold text-white mb-6">Work Experience</h1>
-            <p className="text-xl text-white/80 max-w-3xl mx-auto">
+            <h1 className="text-4xl font-semibold text-white mb-6">Work Experience</h1>
+            <p className="text-xl text-white/80 max-w-4xl mx-auto">
               2+ years of professional experience spanning engineering, research, technology, and operations. 
               Building innovative solutions and driving meaningful impact across diverse industries.
             </p>
