@@ -16,7 +16,7 @@ const Blog = () => {
       <div className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-5xl font-bold text-white mb-6">My Blog & Interests</h1>
+            <h1 className="text-3xl font-bold text-white mb-6">My Blog & Interests</h1>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
               Beyond work and academics, I'm passionate about learning, exploring, and staying active. 
               Here's what keeps me energized and inspired in my free time!
@@ -64,15 +64,15 @@ const Blog = () => {
                   <ul className="space-y-3 text-white/80">
                     <li className="flex items-start gap-2">
                       <span className="text-blue-400 mt-1">📚</span>
-                      <span><strong>Economics:</strong> Fascinated by market dynamics, behavioral economics, and global financial systems</span>
+                      <span><strong>Technology:</strong> Fascinated by every tech upgrade in the market related to Gadgets, Software, Hardware and Automobiles</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-blue-400 mt-1">🌍</span>
-                      <span><strong>International Relations:</strong> Understanding geopolitics, diplomacy, and how nations interact</span>
+                      <span><strong>Photography:</strong> Understanding the beauty and capturing the life of memories through eyes and lens</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-blue-400 mt-1">🏛️</span>
-                      <span><strong>History:</strong> Learning from the past to understand our present and shape the future</span>
+                      <span><strong>Philosophy:</strong> Learning from the past to understand our present and shape the future</span>
                     </li>
                   </ul>
                 </div>
@@ -86,11 +86,11 @@ const Blog = () => {
                   <ul className="space-y-3 text-white/80">
                     <li className="flex items-start gap-2">
                       <span className="text-green-400 mt-1">🎾</span>
-                      <span><strong>Tennis:</strong> Love the strategic gameplay and competitive spirit of the sport</span>
+                      <span><strong>Badminton:</strong> Love the strategic gameplay and competitive spirit of the sport</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-green-400 mt-1">🏃‍♂️</span>
-                      <span><strong>Marathon Running:</strong> Pushing my physical and mental limits, one mile at a time</span>
+                      <span><strong>Swimming:</strong> Pushing my physical and mental limits, one challenge at a time</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-green-400 mt-1">🏔️</span>

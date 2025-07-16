@@ -21,7 +21,7 @@ const WorkExperience = () => {
       icon: Cog
     },
     {
-      title: "Inventory Analayst Intern",
+      title: "Inventory Control Analayst Intern",
       company: "Sodexo",
       period: "August 2024 - May 2025",
       location: "Tempe, Arizona, USA",
