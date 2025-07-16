@@ -25,7 +25,7 @@ const WorkExperience = () => {
       company: "Sodexo",
       period: "August 2024 - May 2025",
       location: "Tempe, Arizona, USA",
-      description: "Managed large-scale stadium and event operations and drove significant business growth initiatives.",
+      description: "Coordinated inventory operations and managed supply chain for the company with a focus on food safety.",
       achievements: [
         "Minimized spoilage and waste by 30% through real-time tracking using FIFO/FEFO systems for perishable goods",
         "Monitored expiry dates & demand forecasting aligned with shelf-life constraints by stock rotation & logistic operations",
