@@ -46,7 +46,7 @@ const Projects = () => {
       achievements: [
         "Led an interdisciplinary project optimizing Power Delivery Networks (PDNs) to improve signal, power, and thermal performance",
         "Leveraged simulation in Ansys, KiCAD, and MATLAB to model the PDN and analyze key metrics like noise and voltage drops for targeted optimization",
-        "Enhanced system performance by strategically placing decoupling capacitors of varying values, refining power planes to reduce noise & voltage drops",
+        "Enhanced system performance by strategically placing varying decoupling capacitors, refined power planes to reduce noise & voltage drops",
         "Achieved a near-100% reduction in power rail noise, successfully mitigating 2% peak-to-peak voltage fluctuation to deliver stable 5V DC output"
       ],
       technologies: ["ANSYS", "KICAD", "MATLAB", "FEA", "Semiconductor Manufacturing", "PCB Design", "Power Delivery Networks (PDNs)"],
@@ -92,7 +92,7 @@ const Projects = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-5xl font-semibold text-white mb-6">My Projects</h1>
-            <p className="text-xl text-white/80 max-w-3xl mx-auto">
+            <p className="text-xl text-white/80 max-w-5xl mx-auto">
               A showcase of impactful projects spanning solutions to problems in Real Time Science and Technology. 
               Each project demonstrates my ability to drive meaningful results across my domains building my expertise.
             </p>
