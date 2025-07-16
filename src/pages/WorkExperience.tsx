@@ -21,7 +21,7 @@ const WorkExperience = () => {
       icon: Cog
     },
     {
-      title: "Inventory Control Analayst Intern",
+      title: "Inventory Control Analyst Intern",
       company: "Sodexo",
       period: "August 2024 - May 2025",
       location: "Tempe, Arizona, USA",
@@ -58,7 +58,7 @@ const WorkExperience = () => {
       company: "Arizona State University - Facilities Development and Management",
       period: "November 2023 - May 2024",
       location: "Tempe, Arizona, USA",
-      description: "Managed large-scale fleet operations and drove significant efficiency growth initiatives.",
+      description: "Spearheaded fleet operations and managed the university's EV fleet and maintenance.",
       achievements: [
         "Maximized EV battery efficiency, implementing advanced health monitoring protocols, automated maintenance, and predictive maintenance",
         "optimized charge cycles to off-peak hours, extending battery lifespan, recycling used batteries and tires, saving fleet cost by 25%",
