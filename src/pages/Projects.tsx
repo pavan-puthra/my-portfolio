@@ -91,8 +91,8 @@ const Projects = () => {
       <div className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-5xl font-semibold text-white mb-6">My Projects</h1>
-            <p className="text-xl text-white/80 max-w-5xl mx-auto">
+            <h1 className="text-4xl font-semibold text-white mb-6">My Projects</h1>
+            <p className="text-xl text-white/80 max-w-4xl mx-auto">
               A showcase of impactful projects spanning solutions to problems in Real Time Science and Technology. 
               Each project demonstrates my ability to drive meaningful results across my domains building my expertise.
             </p>

@@ -1,107 +1,87 @@
 import Layout from "@/components/Layout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, MapPin, Users, TrendingUp, BookOpen, Code, Building2, GraduationCap } from "lucide-react";
+import { Calendar, MapPin, Users, TrendingUp, BookOpen, Code, Building2, GraduationCap, Cog, MonitorCog, ChartPie, Microscope, Columns3} from "lucide-react";
 
 const WorkExperience = () => {
   const experiences = [
     {
-      title: "Graduate Student Researcher & Teaching Assistant",
+      title: "Mehcanical Engineer Intern",
       company: "Arizona State University",
-      period: "August 2024 - Present",
-      location: "Arizona, USA",
-      description: "Pursuing MBA in Business Analytics & Supply Chain Management while working on cutting-edge research projects.",
+      period: "July 2025 - Present",
+      location: "Tempe, Arizona, USA",
+      description: "Working on cutting-edge projects in sutainability for renewable energy and manufacturing.",
       achievements: [
-        "Working on AI-powered turbine optimization for GE Aerospace",
-        "Optimizing Emergency Room operations at Mayo Clinic Scottsdale",
-        "Teaching Assistant for MS in Artificial Intelligence program",
-        "Focusing on supply chain analytics and data-driven decision making",
-        "Combining business strategy with advanced analytics"
+        "Working on Building Automation for large scale Graphene Production",
+        "Optimizing Operations to convert landill waste into Valuable Carbon for Energy Storage",
+        "Designing and prototyping a factory scaled process for The Salt River Project (SRP)",
+        "Performing Mterial Characterization and Raman Scpectroscopy analysis to find put characteristics of Graphene",
       ],
-      technologies: ["Machine Learning", "Supply Chain Analytics", "Business Analytics", "Healthcare Operations", "Teaching"],
-      icon: GraduationCap
+      technologies: ["Automation", "Design for Manufacturing","Energy Storage systems", "Material Characterization", "Raman Scpectroscopy", "Sustainability"],
+      icon: Cog
     },
     {
-      title: "Program Manager",
-      company: "Narayana Educational Operations",
-      period: "August 2022 - August 2024",
-      location: "India",
-      description: "Managed large-scale educational operations and drove significant business growth initiatives.",
+      title: "Inventory Analayst Intern",
+      company: "Sodexo",
+      period: "August 2024 - May 2025",
+      location: "Tempe, Arizona, USA",
+      description: "Managed large-scale stadium and event operations and drove significant business growth initiatives.",
       achievements: [
-        "Oversaw team of 65+ resources across three campuses",
-        "Managed region with 1,000+ students",
-        "Doubled enrollments and increased revenues by 74% in 2024",
-        "Designed Excel-based scheduling model with workload mapping",
-        "Reduced staff overtime hours by 7% under weekly hour constraints",
-        "Managed $1.6M payroll using SAP FICO"
+        "Minimized spoilage and waste by 30% through real-time tracking using FIFO/FEFO systems for perishable goods",
+        "Monitored expiry dates & demand forecasting aligned with shelf-life constraints by stock rotation & logistic operations",
+        "Ensured strict adherence to food safety regulations by FDA and conducted bi-weekly audits maintaining traceability",
+        "Reduced compliance-related stock write-offs by 25% for maintaining required goods in the inventory",
+        "Optimized inventory management levels for seasonal/event-driven demand, reducing stockouts by 20%",
+        "Lowered excess inventory costs by 15% through agile replenishment strategies and methodologies"
       ],
-      technologies: ["SAP FICO", "Excel Optimization", "Operations Management", "Revenue Analytics", "Team Leadership"],
-      icon: Users
+      technologies: ["Tableau", "Excel VBA", "Inventory Management", "Operations Management", "Team Leadership"],
+      icon: ChartPie
     },
     {
-      title: "Founder & CEO",
-      company: "Dialectics Educational Platform",
-      period: "May 2022 - Present",
-      location: "India",
-      description: "Founded and scaled an innovative edtech venture focusing on economics education for public schools.",
+      title: "Manufacturing Engineer Intern",
+      company: "Shape Corp.",
+      period: "May 2024 - August 2024",
+      location: "Grand Haven, Michigan, USA",
+      description: "Managed large-scale manufacturing operations and drove significant efficiency growth initiatives.",
       achievements: [
-        "Founded and scaled edtech venture with 200,000+ books sold",
-        "Expanded reach to 5,800+ public schools impacting 1.3 million children",
-        "Content adopted by Government of Andhra Pradesh for 2025-26 curriculum",
-        "Authored Swaminathan and Tara book series",
-        "Built comic-based economic education platform"
+        "Worked shoulder-to-shoulder with plant leadership in a fast-paced environment to resolve operational challenges",
+        "Applied root cause analysis and optimized workflows for production lines, enhancing loading time by 18% and OEE by 10%",
+        "Mentored 20+ team members in deploying PLEX smart manufacturing HMI software, improving real-time monitoring of throughput ",
+        "Reduced daily production costs by $15K by implementing Statistical Process Control (SPC) methodologies ",
+        "Depricaiated defect rates by 22% and enhancing process stability by training and teaching pendant on FANUC robots"
       ],
-      technologies: ["Educational Technology", "Content Strategy", "Publishing", "Government Relations", "Business Development"],
-      icon: BookOpen
+      technologies: ["FANUC Robots", "Statistical Process Control", "Root Cause Analysis", "PLEX Smart Manufacturing", "Workflow Optimization"],
+      icon: MonitorCog
     },
     {
-      title: "Strategic Consultant & Project Manager",
-      company: "Learning Improvement Program (LIP) - UNICEF",
-      period: "September 2020 - August 2022",
-      location: "Andhra Pradesh, India",
-      description: "Led consulting services with UNICEF to facilitate implementation of educational programs across Andhra Pradesh.",
+      title: "Fleet management Assistant",
+      company: "Arizona State University - Facilities Development and Management",
+      period: "November 2023 - May 2024",
+      location: "Tempe, Arizona, USA",
+      description: "Managed large-scale fleet operations and drove significant efficiency growth initiatives.",
       achievements: [
-        "Facilitated implementation across 10 districts benefiting 1.3 million children",
-        "Reintegrated 12,650 students who dropped out post-COVID",
-        "Led 33-member analytics team for baseline assessment data analysis",
-        "Identified learning gaps and supported data-driven decision making",
-        "Coordinated with 1,500 community volunteers and 200 principals"
+        "Maximized EV battery efficiency, implementing advanced health monitoring protocols, automated maintenance, and predictive maintenance",
+        "optimized charge cycles to off-peak hours, extending battery lifespan, recycling used batteries and tires, saving fleet cost by 25%",
+        "Secured grants and led the expansion of university fleet by 50 EVs, overseeing the installation of 30+ EV charging stations",
+        "Designed Parking layouts using AutoCAD for the facilities and operations fleet leading to a reduction of annual fuel costs by 40%",
+        "Leveraged GPS and telematics data to analyze EV energy consumption patterns, improving route efficiency by 18%"
       ],
-      technologies: ["Data Analytics", "Program Management", "UNICEF Partnership", "Educational Assessment", "Team Leadership"],
-      icon: Users
+      technologies: ["AutoCAD", "Battery Managament Systems", "EV Charging Stations", "Fleet Management", "Energy Management", "Data Analytics"],
+      icon: Columns3
     },
     {
-      title: "Associate Product Manager",
-      company: "BankBuddy.ai - Financial Credit System",
-      period: "August 2017 - December 2018",
-      location: "India",
-      description: "Developed innovative fintech solution to streamline customer verification and credit scoring processes.",
+      title: "Research and Development Intern",
+      company: "ARCI - International Advanced Research Center for Materials and Additive Manufacturing",
+      period: "June 2022 - August 2022",
+      location: "Hyderabad, India",
+      description: "Tested Multimaterial alloys  built using SLM technology and evaluated their durability and structural performance.",
       achievements: [
-        "Reduced customer verification time by 81%",
-        "Built system using Java, Spring Boot, and AngularJS",
-        "Generated credit and finance based potential scores for customers",
-        "Improved customer onboarding experience significantly",
-        "Integrated with banking systems for real-time processing"
+        "Constructed alloys and structural designs and applying SLM technology to perform durability and structural evaluations.",
+        "Reduced feed input by 9% and achieved less porous metal structure through high dense filling and less moisture atmosphere",
+        "Analyzed the metal physical properties and applied numerous tensile strength and fatigue tests on multiple build samples"
       ],
-      technologies: ["Java", "Spring Boot", "AngularJS", "Banking APIs", "Credit Scoring", "Product Management"],
-      icon: TrendingUp
-    },
-    {
-      title: "Technical Analyst",
-      company: "JPMorgan Chase - Gateway Connector",
-      period: "July 2015 - July 2017",
-      location: "India",
-      description: "Contributed to critical payment processing infrastructure at JPMorgan Chase, handling global transactions.",
-      achievements: [
-        "Oversaw processing of real-time payment transactions globally",
-        "Implemented and managed SWIFT code payment transactions",
-        "Developed automated regression testing tool for Gateway Connector project",
-        "Achieved testing capacity of ~500 payments per minute",
-        "Promoted from Quality Analyst to Application Developer",
-        "Worked on front-end (Angular JS) and back-end (Java) development"
-      ],
-      technologies: ["Java", "Angular JS", "SWIFT", "Payment Processing", "Automated Testing", "Financial Systems"],
-      icon: Code
+      technologies: ["Additive Manufacturing", "Selective Laser Sintering", "CATIA", "FEA", "ANSYS"],
+      icon: Microscope
     }
   ];
 
