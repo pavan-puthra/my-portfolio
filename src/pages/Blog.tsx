@@ -63,15 +63,15 @@ const Blog = () => {
                   </h3>
                   <ul className="space-y-3 text-white/80">
                     <li className="flex items-start gap-2">
-                      <span className="text-blue-400 mt-1">📚</span>
+                      <span className="text-blue-400 mt-1">⚛️</span>
                       <span><strong>Technology:</strong> Fascinated by every tech upgrade in the market related to Gadgets, Software, Hardware and Automobiles</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-blue-400 mt-1">🌍</span>
+                      <span className="text-blue-400 mt-1">📷</span>
                       <span><strong>Photography:</strong> Understanding the beauty and capturing the life of memories through eyes and lens</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-blue-400 mt-1">🏛️</span>
+                      <span className="text-blue-400 mt-1">🜎</span>
                       <span><strong>Philosophy:</strong> Learning from the past to understand our present and shape the future</span>
                     </li>
                   </ul>
@@ -85,11 +85,11 @@ const Blog = () => {
                   </h3>
                   <ul className="space-y-3 text-white/80">
                     <li className="flex items-start gap-2">
-                      <span className="text-green-400 mt-1">🎾</span>
+                      <span className="text-green-400 mt-1">🏸</span>
                       <span><strong>Badminton:</strong> Love the strategic gameplay and competitive spirit of the sport</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-green-400 mt-1">🏃‍♂️</span>
+                      <span className="text-green-400 mt-1">🏊🏻‍♂️</span>
                       <span><strong>Swimming:</strong> Pushing my physical and mental limits, one challenge at a time</span>
                     </li>
                     <li className="flex items-start gap-2">

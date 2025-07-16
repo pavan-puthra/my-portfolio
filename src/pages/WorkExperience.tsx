@@ -15,7 +15,7 @@ const WorkExperience = () => {
         "Working on Building Automation for large scale Graphene Production",
         "Optimizing Operations to convert landill waste into Valuable Carbon for Energy Storage",
         "Designing and prototyping a factory scaled process for The Salt River Project (SRP)",
-        "Performing Mterial Characterization and Raman Scpectroscopy analysis to find put characteristics of Graphene",
+        "Performing Material Characterization and Raman Spectroscopy analysis to find out characteristics of Graphene",
       ],
       technologies: ["Automation", "Design for Manufacturing","Energy Storage systems", "Material Characterization", "Raman Scpectroscopy", "Sustainability"],
       icon: Cog
@@ -34,7 +34,7 @@ const WorkExperience = () => {
         "Optimized inventory management levels for seasonal/event-driven demand, reducing stockouts by 20%",
         "Lowered excess inventory costs by 15% through agile replenishment strategies and methodologies"
       ],
-      technologies: ["Tableau", "Excel VBA", "Inventory Management", "Operations Management", "Team Leadership"],
+      technologies: ["Tableau", "Data Analytics", "Excel VBA", "Inventory Management", "Operations Management", "Team Leadership"],
       icon: ChartPie
     },
     {
@@ -66,7 +66,7 @@ const WorkExperience = () => {
         "Designed Parking layouts using AutoCAD for the facilities and operations fleet leading to a reduction of annual fuel costs by 40%",
         "Leveraged GPS and telematics data to analyze EV energy consumption patterns, improving route efficiency by 18%"
       ],
-      technologies: ["AutoCAD", "Battery Managament Systems", "EV Charging Stations", "Fleet Management", "Energy Management", "Data Analytics"],
+      technologies: ["AutoCAD", "Battery Management Systems", "EV Charging Stations", "Fleet Management", "Energy Management", "Data Analytics"],
       icon: Columns3
     },
     {
