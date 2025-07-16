@@ -143,7 +143,7 @@ const WorkExperience = () => {
                         <Badge 
                           key={i} 
                           variant="secondary" 
-                          className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 text-white border-blue-400/30"
+                          className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 text-black border-blue-400/30"
                         >
                           {tech}
                         </Badge>
