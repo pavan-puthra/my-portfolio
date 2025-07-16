@@ -6,9 +6,9 @@ import { BookOpen, Plane, Trophy, MapPin, Heart, Camera } from "lucide-react";
 
 const Blog = () => {
   const hobbyImages = [
-    "/Images/34a6e640-05f2-4806-bd1f-7362e406c169.png",
-    "/Images/e852d9ec-9489-4b8d-aa46-c8786a8bbb10.png",
-    "/Images/ccb5b881-ea36-42b1-9849-36b58035410c.png"
+    "/Images/Antelopes.png",
+    "/Images/GC.png",
+    "/Images/Wallpaper.png"
   ];
 
   return (
