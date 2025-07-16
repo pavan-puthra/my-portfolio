@@ -13,13 +13,12 @@ const Projects = () => {
       role: "Graduate Student Researcher",
       description: "Converting 300 Tons of Landill waste into Valuable Carbon for Energy Storage",
       achievements: [
-        "Conducted comprehensive market analysis for North American operations",
-        "Developed data-driven recommendations for business strategy",
-        "Created analytical frameworks for decision making",
-        "Performed competitive analysis and market research",
-        "Delivered insights to support strategic planning"
+        "Refined XLPE and prepared samples with various weight percentages of carbon black",
+        "Retrieved Graphene from the Sample using Flash Joule Heating (FJH) Process",
+        "Performed Raman Scpectroscopy analysis to find put yield percentage and characteristics of Graphene",
+        "Designed and developed a prototype for Industrial Scale Graphene Production"
       ],
-      technologies: ["Business Analytics", "Market Research", "Strategic Planning", "Consulting", "Data Strategy"],
+      technologies: ["Flash Joule Heating", "Sustainability", "Solidworks", "Raman Scpectroscopy"],
       metrics: { focus: "Sustainability", impact: "Environment and Material science" },
       icon: Code
     },
@@ -27,27 +26,42 @@ const Projects = () => {
       title: "Portable Universal Testing Machine",
       period: "Academic Project",
       role: "Graduate Student Researcher",
-      description: "Developing a portable universal testing machine using Lead-Screw mechanism and Arduino using Feedback Control.",
+      description: "Developing a portable universal testing machine using Lead-Screw mechanism and Arduino using Feedback Control",
       achievements: [
         "Designed, modeled, and prototyped a precision universal testing machine using SolidWorks intuitive Arduino-based HMI",
         "Fabricated critical components through 3D printing, incorporating lead screw mechanism using displacement sensors and custom grippers",
-        "improving measurement accuracy & reducing variability by 20%, ensuring reliability for testing of tensile strength, fatigue and yield strength. ",
-        "Reduced execution time by 30%,significantly enhancing test consistency and streamlining user interaction through the IDE.",
+        "improving measurement accuracy & reducing variability by 20%, ensuring reliability for testing of tensile strength, fatigue & yield strength",
+        "Reduced execution time by 30%,significantly enhancing test consistency and streamlining user interaction through the IDE",
         "Validated the equipment to ASTM standards through rigorous calibration and iterative optimization"
       ],
-      technologies: ["Arduino Programming", "Feedback Control", "3-D Printing", "Solidworks", "C/C++"],
+      technologies: ["Arduino Programming", "Feedback Control", "3-D Printing", "Solidworks", "C/C++", "PFMEA"],
       metrics: { focus: "Real-time", impact: "Product Development" },
       icon: Building
+    },
+    {
+      title: "Optimization of Power Delivery Networks",
+      period: "Academic Project",
+      role: "Graduate Student Researcher",
+      description: "Thermomechanical Analysis of Power Delivery Networks in Wafers for improving Signal Integrity",
+      achievements: [
+        "Led an interdisciplinary project optimizing Power Delivery Networks (PDNs) to improve signal, power, and thermal performance",
+        "Leveraged simulation in Ansys, KiCAD, and MATLAB to model the PDN and analyze key metrics like noise and voltage drops for targeted optimization",
+        "Enhanced system performance by strategically placing decoupling capacitors of varying values, refining power planes to reduce noise & voltage drops",
+        "Achieved a near-100% reduction in power rail noise, successfully mitigating 2% peak-to-peak voltage fluctuation to deliver stable 5V DC output"
+      ],
+      technologies: ["ANSYS", "KICAD", "MATLAB", "FEA", "Semiconductor Manufacturing", "PCB Design", "Power Delivery Networks (PDNs)"],
+      metrics: { scope: "Semiconductor Manufacturing", impact: "Improving PDN Performance" },
+      icon: TrendingUp
     },
     {
       title: "Weld Bead Monitoring via Image Recognition",
       period: "Academic Project",
       role: "Graduate Student Researcher",
-      description: "Data-driven machine learning project for weld bead inspection using computer vision.",
+      description: "Data-driven machine learning project for weld bead inspection using computer vision and robotic welding",
       achievements: [
         "Designed and deployed a CNN and Vision Transformer-based image recognition system to automate weld bead inspection",
         "Achievied 96% accuracy in defect detection and reducing manual inspection time by 40%",
-        "Integrated the AI model with robotic welding systems to enable real-time feedback minimizing rewelding by 50% ",
+        "Integrated the AI model with robotic welding systems to enable real-time feedback minimizing rewelding by 50%",
         "Leveraged vision transformer architectures to analyze weld bead thermal patterns and spatial inconsistencies",
         "Reducied material waste by 20% and enabled predictive maintenance of welding equipment, cutting downtime by 30%"
       ],
@@ -56,18 +70,17 @@ const Projects = () => {
       icon: Users
     },
     {
-      title: "FEA of Laser Powder Bed Fusion process for Additive Manufacturing ",
+      title: "FEA of Laser Powder Bed Fusion process",
       period: "Academic Project",
       role: "Graduate Student Researcher",
-      description: "Finite Element Analysis of Selective Laser Melting Process impacting various parameters during the build process.",
+      description: "Finite Element Analysis of Selective Laser Melting Process impacting various parameters during the build process",
       achievements: [
-        "Analyzed customer purchasing patterns and behavior",
-        "Developed insights for retail strategy optimization",
-        "Created data visualizations and dashboards",
-        "Performed statistical analysis on large datasets",
-        "Generated actionable recommendations for business growth"
+        "Built a 3D transient model in COMSOL integrating Heat Transfer and Structural Mechanics modules",
+        "simulated coupled thermal-structural phenomena, including phase changes and thermal expansion of Ti-6Al-4V",
+        "Correlated results with experimental data to validate accuracy, achieving <10% deviation in predicted vs. actual residual stresses",
+        "Harnessed COMSOL’s Optimization Module to identify parameter sets reducing residual stress by 25% while maintaining part density"
       ],
-      technologies: ["ANSYS", "COMSOL", "Structural Analysis", "Solidworks", "FEA", "Additive Manufacturing"],
+      technologies: ["ANSYS", "COMSOL", "Structural Analysis", "Solidworks", "FEA", "Additive Manufacturing", "DFMEA"],
       metrics: { scope: "Customization", impact: "Improving Build Parameters" },
       icon: TrendingUp
     },
@@ -126,7 +139,7 @@ const Projects = () => {
                         <Badge 
                           key={i} 
                           variant="secondary" 
-                          className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 text-white border-blue-400/30"
+                          className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 text-black border-blue-400/30"
                         >
                           {tech}
                         </Badge>
