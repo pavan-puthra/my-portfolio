@@ -22,8 +22,8 @@ const Projects = () => {
       metrics: { focus: "Sustainability", impact: "Environment and Material science" },
       icon: Code,
       images: [
-        "/Images/Antelopes.png",
-        "/Images/GC.png",
+        "/Images/Projects/SRP1.png",
+        "/Images/Projects/SRP2.png",
       ]
     },
     {
@@ -42,8 +42,8 @@ const Projects = () => {
       metrics: { focus: "Real-time", impact: "Product Development" },
       icon: Building,
       images: [
-        "/Images/Antelopes.png",
-        "/Images/GC.png",
+        "/Images/Projects/MAE5981.png",
+        "/Images/Projects/MAE5982.png",
       ]
     },
     {
@@ -61,8 +61,8 @@ const Projects = () => {
       metrics: { scope: "Semiconductor Manufacturing", impact: "Improving PDN Performance" },
       icon: TrendingUp,
       images: [
-        "/Images/Antelopes.png",
-        "/Images/GC.png",
+        "/Images/Projects/EEE5981.png",
+        "/Images/Projects/EEE5982.png",
       ]
     },
     {
