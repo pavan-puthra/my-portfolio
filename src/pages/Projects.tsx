@@ -20,7 +20,11 @@ const Projects = () => {
       ],
       technologies: ["Flash Joule Heating", "Sustainability", "Solidworks", "Raman Scpectroscopy"],
       metrics: { focus: "Sustainability", impact: "Environment and Material science" },
-      icon: Code
+      icon: Code,
+      images: [
+        "/Images/Antelopes.png",
+        "/Images/GC.png",
+      ]
     },
     {
       title: "Portable Universal Testing Machine",
@@ -36,7 +40,11 @@ const Projects = () => {
       ],
       technologies: ["Arduino Programming", "Feedback Control", "3-D Printing", "Solidworks", "C/C++", "PFMEA"],
       metrics: { focus: "Real-time", impact: "Product Development" },
-      icon: Building
+      icon: Building,
+      images: [
+        "/Images/Antelopes.png",
+        "/Images/GC.png",
+      ]
     },
     {
       title: "Optimization of Power Delivery Networks",
@@ -51,7 +59,11 @@ const Projects = () => {
       ],
       technologies: ["ANSYS", "KICAD", "MATLAB", "FEA", "Semiconductor Manufacturing", "PCB Design", "Power Delivery Networks (PDNs)"],
       metrics: { scope: "Semiconductor Manufacturing", impact: "Improving PDN Performance" },
-      icon: TrendingUp
+      icon: TrendingUp,
+      images: [
+        "/Images/Antelopes.png",
+        "/Images/GC.png",
+      ]
     },
     {
       title: "Weld Bead Monitoring via Image Recognition",
@@ -67,7 +79,11 @@ const Projects = () => {
       ],
       technologies: ["AI/ML", "Computer Vision", "Manufacturing Operations", "Robotics", "Welding", "TIG/MIG/GMAW/GTAW Welding"],
       metrics: { focus: "Quality Assurance", impact: "Manufacturing Efficiency" },
-      icon: Users
+      icon: Users,
+      images: [
+        "/Images/Antelopes.png",
+        "/Images/GC.png",
+      ]
     },
     {
       title: "FEA of Laser Powder Bed Fusion process",
@@ -82,7 +98,11 @@ const Projects = () => {
       ],
       technologies: ["ANSYS", "COMSOL", "Structural Analysis", "Solidworks", "FEA", "Additive Manufacturing", "DFMEA"],
       metrics: { scope: "Customization", impact: "Improving Build Parameters" },
-      icon: TrendingUp
+      icon: TrendingUp,
+      images: [
+        "/Images/Antelopes.png",
+        "/Images/GC.png",
+      ]
     },
   ];
 
@@ -104,6 +124,18 @@ const Projects = () => {
                 <CardHeader>
                   <div className="flex items-start justify-between">
                     <div className="flex-1">
+                    <div className="grid md:grid-cols-2 gap-6 mb-16" style={{marginBottom: "2rem"}}>
+            {project.images.map((image, index) => (
+              <div key={index} className="relative group overflow-hidden rounded-lg">
+                <img 
+                  src={image} 
+                  alt={`Hobby ${index + 1}`}
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
+            ))}
+          </div>
                       <CardTitle className="text-2xl text-white mb-2 flex items-center gap-3">
                         {project.title}
                       </CardTitle>
