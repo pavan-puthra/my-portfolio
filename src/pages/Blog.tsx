@@ -119,7 +119,7 @@ const Blog = () => {
                 <h3 className="text-2xl font-bold text-white mb-4">My Philosophy</h3>
                 <p className="text-xl text-white/80 leading-relaxed italic">
                   "I believe in continuous learning, meaningful connections, and pushing boundaries. 
-                  Whether I'm analyzing economic theories, exploring a new country, or training for my next marathon, 
+                  Whether I'm exploring a new place, or training for my next challenge, trying new things, 
                   I approach everything with curiosity, determination, and a sense of adventure!"
                 </p>
                 <div className="flex justify-center mt-6">

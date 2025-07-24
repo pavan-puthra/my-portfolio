@@ -6,22 +6,22 @@ import { Calendar, MapPin, Users, TrendingUp, BookOpen, Code, Building2, Graduat
 const WorkExperience = () => {
   const experiences = [
     {
-      title: "Mehcanical Engineer Intern",
+      title: "MORE Research Scholar",
       company: "Arizona State University",
-      period: "July 2025 - Present",
+      period: "January 2025 - Present",
       location: "Tempe, Arizona, USA",
       description: "Working on cutting-edge projects in sutainability for renewable energy and manufacturing.",
       achievements: [
-        "Working on Building Automation for large scale Graphene Production",
-        "Optimizing Operations to convert landill waste into Valuable Carbon for Energy Storage",
-        "Designing and prototyping a factory scaled process for The Salt River Project (SRP)",
-        "Performing Material Characterization and Raman Spectroscopy analysis to find out characteristics of Graphene",
+        "Engineered & integrated automated control systems for large-scale graphene production, enhancing process stability & throughput",
+        "Streamlined a waste-to- high valued carbon conversion process by optimizing key operating parameters (temperature, pressure)",
+        "resulted in improved purity and suitability for battery and super capacitor applications using graphene.",
+        "Executed the end-to-end design of a pilot-scale production reactor for SRP, utilizing Solid Works for 3D modeling",
       ],
       technologies: ["Automation", "Design for Manufacturing","Energy Storage systems", "Material Characterization", "Raman Scpectroscopy", "Sustainability"],
       icon: Cog
     },
     {
-      title: "Inventory Control Analyst Intern",
+      title: "Inventory Control Analyst Co-Op",
       company: "Sodexo",
       period: "August 2024 - May 2025",
       location: "Tempe, Arizona, USA",

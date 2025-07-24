@@ -81,8 +81,8 @@ const Projects = () => {
       metrics: { focus: "Quality Assurance", impact: "Manufacturing Efficiency" },
       icon: Users,
       images: [
-        "/Images/Antelopes.png",
-        "/Images/GC.png",
+        "/Images/Projects/Confusion Matrix.png",
+        "/Images/Projects/Weld Image.png",
       ]
     },
     {
@@ -100,8 +100,8 @@ const Projects = () => {
       metrics: { scope: "Customization", impact: "Improving Build Parameters" },
       icon: TrendingUp,
       images: [
-        "/Images/Antelopes.png",
-        "/Images/GC.png",
+        "/Images/Projects/Mesh.png",
+        "/Images/Projects/Simulation.png",
       ]
     },
   ];
