@@ -21,7 +21,7 @@ const WorkExperience = () => {
       icon: Cog
     },
     {
-      title: "Inventory Control Analyst Co-Op",
+      title: "Assistant Operations Manager",
       company: "Sodexo",
       period: "August 2024 - May 2025",
       location: "Tempe, Arizona, USA",

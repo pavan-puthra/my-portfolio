@@ -47,7 +47,7 @@ const Projects = () => {
       ]
     },
     {
-      title: "Optimization of Power Delivery Networks",
+      title: "Optimization of Power Delivery Networks For Signal Integrity",
       period: "Academic Project",
       role: "Graduate Student Researcher",
       description: "Thermomechanical Analysis of Power Delivery Networks in Wafers for improving Signal Integrity",
