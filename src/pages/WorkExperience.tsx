@@ -1,10 +1,25 @@
 import Layout from "@/components/Layout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, MapPin, Users, TrendingUp, BookOpen, Code, Building2, GraduationCap, Cog, MonitorCog, ChartPie, Microscope, Columns3} from "lucide-react";
+import { Calendar, MapPin, Users, TrendingUp, BookOpen, Code, Building2, GraduationCap, Cog, MonitorCog, ChartPie, Microscope, Columns3, Cpu} from "lucide-react";
 
 const WorkExperience = () => {
   const experiences = [
+    {
+      title: "Manufacturing Operations Engineer",
+      company: "Intel",
+      period: "August 2025 - Present",
+      location: "Chandler, Arizona, USA",
+      description: "Managed manufacturing operations in 18A fabrication process line at Intel's Fab52 facility.",
+      achievements: [
+        "Planned and Managed production capacity plans supporting efficient resource allocation in high - volume manufacturing environments",
+        "Maintained multi-network tools for real-time monitoring and control of production processes for CVD,EUV and EMIB processes",
+        "Worked with cross-functional teams & implementing workflow improvements & drive productivity initiatives to optimize operations",
+        "Analyzed and supported facility/layout projects to improve operational efficiency and accommodate changing production requirements"
+      ],
+      technologies: ["Tableau", "Data Analytics", "Excel VBA", "Inventory Management", "Operations Management", "Team Leadership"],
+      icon: Cpu
+    },
     {
       title: "MORE Research Scholar",
       company: "Arizona State University",
