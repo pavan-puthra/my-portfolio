@@ -10,7 +10,7 @@ const WorkExperience = () => {
       company: "Intel",
       period: "August 2025 - Present",
       location: "Chandler, Arizona, USA",
-      description: "Managed manufacturing operations in 18A fabrication process line at Intel's Fab52 facility.",
+      description: "Managed manufacturing operations supporting 18A fabrication process line at Intel's Fab52 facility.",
       achievements: [
         "Planned and Managed production capacity plans supporting efficient resource allocation in high - volume manufacturing environments",
         "Maintained multi-network tools for real-time monitoring and control of production processes for CVD,EUV and EMIB processes",
