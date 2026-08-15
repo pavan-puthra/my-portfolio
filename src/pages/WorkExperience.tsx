@@ -6,9 +6,24 @@ import { Calendar, MapPin, Users, TrendingUp, BookOpen, Code, Building2, Graduat
 const WorkExperience = () => {
   const experiences = [
     {
+      title: "Production Control Engineer",
+      company: "Siemens",
+      period: "January 2026 - Present",
+      location: "Chandler, Arizona, USA",
+      description: "Controlling and optimizing material flows and operations supporting production, warehouse and quality teams in order management systems.",
+      achievements: [
+        "Planned and Managed production capacity plans supporting efficient resource allocation in high - volume manufacturing environments",
+        "Maintained multi-network tools for real-time monitoring and control of production processes for CVD,EUV and EMIB processes",
+        "Worked with cross-functional teams & implementing workflow improvements & drive productivity initiatives to optimize operations",
+        "Analyzed and supported facility/layout projects to improve operational efficiency and accommodate changing production requirements"
+      ],
+      technologies: ["SAP", "MRP Systems", "Supply Chain Management", "Data Analytics", "Excel VBA", "Order Management", "Risk Mitigation", "Operations Management"],
+      icon: Cpu
+    },
+    {
       title: "Manufacturing Operations Engineer",
       company: "Intel",
-      period: "August 2025 - Present",
+      period: "August 2025 - December 2025",
       location: "Chandler, Arizona, USA",
       description: "Managed manufacturing operations supporting 18A fabrication process line at Intel's Fab52 facility.",
       achievements: [
