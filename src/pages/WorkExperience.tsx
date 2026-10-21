@@ -1,30 +1,31 @@
 import Layout from "@/components/Layout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, MapPin, Users, TrendingUp, BookOpen, Code, Building2, GraduationCap, Cog, MonitorCog, ChartPie, Microscope, Columns3, Cpu} from "lucide-react";
+import { Calendar, MapPin, Users, TrendingUp, BookOpen, Code, Building2, GraduationCap, Cog, MonitorCog, ChartPie, Microscope, Columns3, Cpu, Train} from "lucide-react";
 
 const WorkExperience = () => {
   const experiences = [
     {
-      title: "Production Control Engineer",
+      title: "Industrial Engineer, Production Control",
       company: "Siemens",
       period: "January 2026 - Present",
-      location: "Chandler, Arizona, USA",
+      location: "Sacramento, CA",
       description: "Controlling and optimizing material flows and operations supporting production, warehouse and quality teams in order management systems.",
       achievements: [
-        "Planned and Managed production capacity plans supporting efficient resource allocation in high - volume manufacturing environments",
-        "Maintained multi-network tools for real-time monitoring and control of production processes for CVD,EUV and EMIB processes",
-        "Worked with cross-functional teams & implementing workflow improvements & drive productivity initiatives to optimize operations",
-        "Analyzed and supported facility/layout projects to improve operational efficiency and accommodate changing production requirements"
+        "Engineered dynamic tugger delivery routes optimizing travel distance and delivery frequency, increasing on-time in-full (OTIF) delivery by 20%",
+        "Developed and maintained Plan for Every Part (PFEP) standards linking packaging, supermarket kitting loops, and point-of-use (POU) presentation, eliminating materila loss by 30%",
+        "Partnered cross-functionally with Production Planning and Engineering to optimize EBOM-to-MBOM translations and balance work order releases to shift takt time, preventing carryover between shifts",
+        "Conducted detailed shop-floor cycle time studies and station capacity evaluations to eliminate pacing bottlenecks, rebalancing WIP buffers across high-volume assembly lines to slash queue times by 25%.",
+        "Leveraged SAP MRP transaction data to track component velocity and inventory consumption variances, driving proactive shortage resolution across assembly work centers to maintain schedule adherence.",
       ],
-      technologies: ["SAP", "MRP Systems", "Supply Chain Management", "Data Analytics", "Excel VBA", "Order Management", "Risk Mitigation", "Operations Management"],
-      icon: Cpu
+      technologies: ["SAP", "MRP Systems", "Supply Chain Management", "Data Analytics", "Excel VBA", "Order and Inventory Management", "Operations Management"],
+      icon: Train
     },
     {
       title: "Manufacturing Operations Engineer",
       company: "Intel",
       period: "August 2025 - December 2025",
-      location: "Chandler, Arizona, USA",
+      location: "Chandler, AZ",
       description: "Managed manufacturing operations supporting 18A fabrication process line at Intel's Fab52 facility.",
       achievements: [
         "Planned and Managed production capacity plans supporting efficient resource allocation in high - volume manufacturing environments",
@@ -39,7 +40,7 @@ const WorkExperience = () => {
       title: "MORE Research Scholar",
       company: "Arizona State University",
       period: "January 2025 - Present",
-      location: "Tempe, Arizona, USA",
+      location: "Tempe, AZ",
       description: "Working on cutting-edge projects in sutainability for renewable energy and manufacturing.",
       achievements: [
         "Engineered & integrated automated control systems for large-scale graphene production, enhancing process stability & throughput",
@@ -54,7 +55,7 @@ const WorkExperience = () => {
       title: "Assistant Operations Manager",
       company: "Sodexo",
       period: "August 2024 - May 2025",
-      location: "Tempe, Arizona, USA",
+      location: "Tempe, AZ",
       description: "Coordinated inventory operations and managed supply chain for the company with a focus on food safety.",
       achievements: [
         "Minimized spoilage and waste by 30% through real-time tracking using FIFO/FEFO systems for perishable goods",
@@ -71,7 +72,7 @@ const WorkExperience = () => {
       title: "Manufacturing Engineer Intern",
       company: "Shape Corp.",
       period: "May 2024 - August 2024",
-      location: "Grand Haven, Michigan, USA",
+      location: "Grand Haven, MI",
       description: "Managed large-scale manufacturing operations and drove significant efficiency growth initiatives.",
       achievements: [
         "Worked shoulder-to-shoulder with plant leadership in a fast-paced environment to resolve operational challenges",
