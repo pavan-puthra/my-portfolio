@@ -13,8 +13,8 @@ const WorkExperience = () => {
       description: "Controlling and optimizing material flows and operations supporting production, warehouse and quality teams in order management systems.",
       achievements: [
         "Engineered dynamic tugger delivery routes optimizing travel distance and delivery frequency, increasing on-time in-full (OTIF) delivery by 20%",
-        "Developed and maintained Plan for Every Part (PFEP) standards linking packaging, supermarket kitting loops, and point-of-use (POU) presentation, eliminating materila loss by 30%",
-        "Partnered cross-functionally with Production Planning and Engineering to optimize EBOM-to-MBOM translations and balance work order releases to shift takt time, preventing carryover between shifts",
+        "Developed and maintained Plan for Every Part (PFEP) standards linking packaging, supermarket kitting loops, and point-of-use (POU) presentation, eliminating material loss by 30%",
+        "Partnered cross-functionally with Production Planning and Engineering to optimize EBOM-to-MBOM translations and balance work order releases to shift take time, preventing carryover between shifts",
         "Conducted detailed shop-floor cycle time studies and station capacity evaluations to eliminate pacing bottlenecks, rebalancing WIP buffers across high-volume assembly lines to slash queue times by 25%.",
         "Leveraged SAP MRP transaction data to track component velocity and inventory consumption variances, driving proactive shortage resolution across assembly work centers to maintain schedule adherence.",
       ],
