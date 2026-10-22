@@ -19,7 +19,6 @@ const WorkExperience = () => {
         "Leveraged SAP MRP transaction data to track component velocity and inventory consumption variances, driving proactive shortage resolution across assembly work centers to maintain schedule adherence.",
       ],
       technologies: ["SAP", "MRP Systems", "Supply Chain Management", "Data Analytics", "Excel VBA", "Power BI", "Tableau"],
-      icon: MonitorCog
       icon: Train
     },
     {
