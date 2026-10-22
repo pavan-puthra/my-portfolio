@@ -18,7 +18,7 @@ const WorkExperience = () => {
         "Conducted detailed shop-floor cycle time studies and station capacity evaluations to eliminate pacing bottlenecks, rebalancing WIP buffers across high-volume assembly lines to slash queue times by 25%.",
         "Leveraged SAP MRP transaction data to track component velocity and inventory consumption variances, driving proactive shortage resolution across assembly work centers to maintain schedule adherence.",
       ],
-      technologies: ["SAP", "MRP Systems", "Supply Chain Management", "Data Analytics", "Excel VBA", "Order and Inventory Management", "Operations Management", "Power BI", "Tableau"],
+      technologies: ["SAP", "MRP Systems", "Supply Chain Management", "Data Analytics", "Excel VBA", "Operations Management", "Power BI", "Tableau"],
       icon: MonitorCog
       icon: Train
     },
@@ -49,7 +49,7 @@ const WorkExperience = () => {
         "resulted in improved purity and suitability for battery and super capacitor applications using graphene.",
         "Executed the end-to-end design of a pilot-scale production reactor for SRP, utilizing Solid Works for 3D modeling",
       ],
-      technologies: ["Automation", "Design for Manufacturing","Energy Storage systems", "Material Characterization", "Raman Scpectroscopy", "Sustainability"],
+      technologies: ["Automation", "Design for Manufacturing","Energy Storage systems", "Material Characterization", "Raman Spectroscopy", "Sustainability"],
       icon: Cog
     },
     {
